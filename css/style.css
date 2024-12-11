@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  padding: 3rem 0;
+  background-color: #1e202b !important;
+}
+.nav a {
+  color: white !important;
+}
+.nav h1 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.small {
+  font-size: 0.625rem;
+  color: #bfc1c8;
+}
+.btnNav {
+  background-color: #323544;
+}
+.my-link {
+  padding: 5px 30px !important;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  transition: 0.3s ease;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 50px;
+}
+.my-link:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+.active {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+main {
+  background: url("../images/banner.png") no-repeat top,
+    /* Image at the top */ #1e202b; /* Solid color at the bottom */
+  background-size: 100% 50%;
+  background-position: top; /* Position the image at the top */
+}
+
+.search {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: #bfc1c8;
+  border-radius: 30px;
+  border: none;
+}
+.submit {
+  border: none;
+  background: #009ad8;
+  padding: 10px 40px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  top: 58px;
+  right: 60px;
+}
+.day {
+  width: fit-content;
+}
+.date {
+  width: fit-content;
+}
+.card_header {
+  background-color: #2d303d;
+  padding: 10px;
+  color: #bfc1c8;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.my_card {
+  background-color: #323544;
+  color: #bfc1c8;
+}
+.degree {
+  font-size: 5rem;
+  color: white;
+}
+.my_card2 .card_header {
+  background-color: #222530;
+  text-align: center;
+}
+.my_card2 {
+  background-color: #262936;
+  color: #bfc1c8;
+  text-align: center;
+}
+.my_card3 .card_header {
+  background-color: #2d303d;
+}
+.my_card3 {
+  background-color: #323544;
+  color: #bfc1c8;
+  text-align: center;
+}
+.custom {
+  color: #009ad8;
+}
+footer {
+  background-color: #262936;
+}
+.icons span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1e202b;
+  color: #009ad8;
+  display: inline-block;
+  text-align: center;
+  transition: 0.3s ease;
+  font-size: 1.4285714286em;
+  align-content: center;
+}
+
+.icons span:hover {
+  background-color: #009ad8;
+  color: white;
+}
+.icons {
+  padding: 20px 50px 20px 20px;
+}
